@@ -1,0 +1,97 @@
+@import '../../vars.css';
+
+.navbar {    
+    position: relative;      
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 51px;
+    padding-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 2;
+    background-color: rgb(3, 3, 42);
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.title:hover {
+    font-size: 45px;
+    opacity: 0.5;
+}
+
+.menu {
+display: flex;
+}
+
+.menuItems {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.menuBtn {
+    display: none;
+}
+
+.menuBtn:hover {
+    width: 60px;
+    opacity: 0.6;
+}
+.menuItems a {
+    font-size: 35px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.menuItems a:hover {
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 830px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+   
+    .menu {
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;      
+        gap: 11px; 
+        z-index: 3; 
+    }
+
+    .menuBtn {
+        display: block;        
+        cursor: pointer;
+    }
+    .menuItems {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(25, 55, 109);
+        background: linear-gradient(
+           0deg, rgba(25, 55, 109, 0.1) 0%,
+            rgba(25, 55, 109, 1 ) 100%
+        );
+        padding: 24px 33px;
+        box-shadow: 0 0 55px 0 rgba(255, 255, 255, 0.75);
+    }
+
+    .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
+}
+
