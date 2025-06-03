@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (    
-      <div className="navbar">
+      <div className="navbar ">
         <img src={logo} alt="" className="logoImage" />
         <img
           src={openmenuicon}
