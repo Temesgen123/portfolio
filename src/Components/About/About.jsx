@@ -38,12 +38,20 @@ const About = () => {
               <hr style={{ width: '55%' }} />
             </div>
             <div className="about-skill">
+              <p>TypeScript</p>
+              <hr style={{ width: '55%' }} />
+            </div>
+            <div className="about-skill">
               <p>Node.js</p>
               <hr style={{ width: '55%' }} />
             </div>
             <div className="about-skill">
               <p>ExpressJS</p>
               <hr style={{ width: '50%' }} />
+            </div>
+            <div className="about-skill">
+              <p>Next.js</p>
+              <hr style={{ width: '55%' }} />
             </div>
             <div className="about-skill">
               <p>MongoDB</p>
