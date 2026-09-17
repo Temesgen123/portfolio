@@ -22,9 +22,8 @@ const mywork_data = [
     w_no: '3',
     w_name: 'NEXTSHOP — FULL-STACK E-COMMERCE APPLICATION',
     w_image: project3_img,
-    w_desc:
-      'Built a production-ready full-stack e-commerce application with a complete customer storefront, admin dashboard, and driver delivery system. Features Stripe payments with automatic tax calculation, customer accounts with Google OAuth, loyalty points, gift cards, discount codes, and abandoned cart recovery. Includes a powerful admin panel for managing products, orders, customers, and analytics',
-
+    w_dsc:
+      'Built a production-ready full-stack e-commerce application with a complete customer storefront, admin dashboard, and driver delivery system. Features Stripe payments with automatic tax calculation, customer accounts with Google OAuth, loyalty points, gift cards, discount codes, and abandonned cart recovery. Includes a powerful admin panel for managing products, orders, customers, and analytics.',
     w_url: 'https://ecommerce-steel-five-73.vercel.app/',
   },
 ];
