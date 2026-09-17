@@ -12,8 +12,8 @@ const Hero = () => {
       </h1>
       <p>
         I'm a full-stack web developer based in Addis Ababa, Ethiopia with
-        experience using React.js and Node.js. Reach out if you'd like to learn
-        more.
+        experience using Next.js, React.js, TypeScript and Node.js. Reach out if
+        you'd like to learn more.
       </p>
       <div className="hero-action">
         <div className="hero-connect">
