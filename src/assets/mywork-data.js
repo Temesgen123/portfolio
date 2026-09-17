@@ -1,6 +1,6 @@
 import project1_img from './aaautopbanner.png';
 import project2_img from './suhillpbanner.png';
-import project3_img from './bnilebanner.jpg';
+import project3_img from './nextshop-banner.png';
 const mywork_data = [
   {
     w_no: '1',
@@ -20,10 +20,11 @@ const mywork_data = [
   },
   {
     w_no: '3',
-    w_name: 'PROJECT IN PROGRESS : NextJS E-commerce Application',
+    w_name: 'NEXTSHOP — FULL-STACK E-COMMERCE APPLICATION',
     w_image: project3_img,
-    w_desc: 'NextJs e-commerce appliction in progress.',
-    w_url: 'http://bnile-temesgens-projects-027b3a17.vercel.app',
+    w_desc:
+      'Built a production-ready full-stack e-commerce application with a complete customer storefront, admin dashboard, and driver delivery system. Features Stripe payments with automatic tax calculation, customer accounts with Google OAuth, loyalty points, gift cards, discount codes, and abandoned cart recovery. Includes a powerful admin panel for managing products, orders, customers, and analytics',
+    w_url: 'https://ecommerce-steel-five-73.vercel.app/',
   },
 ];
 
