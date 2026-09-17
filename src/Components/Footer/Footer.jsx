@@ -8,7 +8,9 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
           <img src="" alt="" />
-          <p>I am a full-stack web developer based in Addid Ababa, Ethiopia ...</p>
+          <p>
+            I am a full-stack web developer based in Addid Ababa, Ethiopia ...
+          </p>
         </div>
         <div className="footer-top-right">
           <div className="footer-email-input">
@@ -23,11 +25,11 @@ const Footer = () => {
         <p className="footer-bottom-left">
           &#169; 2025 Temesgen Birechis. All rights reserved.
         </p>
-        <div className="footer-bottom-right">
+        {/* <div className="footer-bottom-right">
           <p>Terms of service</p>
           <p>Privacy policy</p>
           <AnchorLink href='#contact' className='footer-anchor-link'><p>Contact me</p></AnchorLink>
-        </div>
+        </div> */}
       </div>
     </div>
   );
