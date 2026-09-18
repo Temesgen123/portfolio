@@ -48,12 +48,6 @@ const Contact = () => {
             <div className="contact-detail">
               <img src={Location} alt="" /> <p>Addis Ababa, Ethiopia</p>
             </div>
-            <div className="contact-detail">
-              <img src={Location} alt="" /> <p>Addis Ababa, Ethiopia</p>
-            </div>
-            <div className="contact-detail">
-              <img src={Location} alt="" /> <p>Addis Ababa, Ethiopia</p>
-            </div>
           </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">
