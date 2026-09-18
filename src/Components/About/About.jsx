@@ -75,7 +75,8 @@ const About = () => {
         <div className="technology">
           <h3>Databases</h3>
           <p>SQL Server</p>
-          <p> PosgreSQL & MySQL</p>
+          <p>PosgreSQL & MySQL</p>
+          <p>MySQL</p>
         </div>
         <hr />
         <div className="technology">
@@ -94,11 +95,11 @@ const About = () => {
           <p>AWS</p>
         </div>
         <hr />
-        <div className="technology">
+        {/* <div className="technology">
           <h3>Frameworks</h3>
           <p>Next.js</p>
           <p>Tailwind CSS</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
