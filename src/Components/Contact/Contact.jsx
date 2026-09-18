@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <div id="contact" className="contact">
       <div className="contact-title">
-        <h1>Contact</h1>        
+        <h1>Contact</h1>
       </div>
       <div className="contact-section">
         <div className="contact-left">
@@ -44,6 +44,12 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <img src={Telephone} alt="" /> <p>251-943946168</p>
+            </div>
+            <div className="contact-detail">
+              <img src={Location} alt="" /> <p>Addis Ababa, Ethiopia</p>
+            </div>
+            <div className="contact-detail">
+              <img src={Location} alt="" /> <p>Addis Ababa, Ethiopia</p>
             </div>
             <div className="contact-detail">
               <img src={Location} alt="" /> <p>Addis Ababa, Ethiopia</p>
