@@ -67,6 +67,22 @@ const Navbar = () => {
           </AnchorLink>
           {menu === 'contact' ? <hr /> : <></>}
         </li>
+        <li className="mobile-social-links">
+          <a
+            href="https://www.linkedin.com/in/yourprofile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://birechis.gumroad.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Gumroad
+          </a>
+        </li>
       </ul>
 
       {/* Social links */}
