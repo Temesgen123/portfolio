@@ -16,11 +16,11 @@ const About = () => {
           <div className="about-para">
             <p>
               I'm a passionate Full-Stack Developer with experience in building
-              dynamic and responsive web applications using React.js and
-              Node.js. I enjoy solving complex problems and turning ideas into
-              reality with clean and efficient code. With a strong foundation in
-              front-end and back-end technologies, I thrive on delivering
-              seamless digital experiences.
+              dynamic and responsive web applications using Next.js, TypeScript,
+              React.js and Node.js. I enjoy solving complex problems and turning
+              ideas into reality with clean and efficient code. With a strong
+              foundation in front-end and back-end technologies, I thrive on
+              delivering seamless digital experiences.
             </p>
           </div>
           <div className="about-skills">
@@ -54,6 +54,10 @@ const About = () => {
               <hr style={{ width: '55%' }} />
             </div>
             <div className="about-skill">
+              <p>PostgreSQL</p>
+              <hr style={{ width: '60%' }} />
+            </div>
+            <div className="about-skill">
               <p>MongoDB</p>
               <hr style={{ width: '50%' }} />
             </div>
@@ -63,14 +67,15 @@ const About = () => {
       <div className="related-technologies">
         <div className="technology">
           <h3>Languages</h3>
-          <p>C++</p>
+          <p>JavaScript</p>
+          <p>TypeScript</p>
           <p>Pyhton</p>
         </div>
         <hr />
         <div className="technology">
           <h3>Databases</h3>
           <p>SQL Server</p>
-          <p>MySQL</p>
+          <p> PosgreSQL & MySQL</p>
         </div>
         <hr />
         <div className="technology">
@@ -91,8 +96,8 @@ const About = () => {
         <hr />
         <div className="technology">
           <h3>Frameworks</h3>
+          <p>Next.js</p>
           <p>Tailwind CSS</p>
-          <p>Bootstrap</p>
         </div>
       </div>
     </div>
