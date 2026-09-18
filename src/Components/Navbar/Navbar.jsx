@@ -72,7 +72,7 @@ const Navbar = () => {
       {/* Social links */}
       <div className="nav-social">
         <a
-          href="https://www.linkedin.com/in/yourprofile"
+          href="https://www.linkedin.com/in/temesgen-birechis-ab2a18319/"
           target="_blank"
           rel="noopener noreferrer"
           title="LinkedIn"
