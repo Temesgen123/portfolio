@@ -69,7 +69,7 @@ const About = () => {
           <h3>Languages</h3>
           <p>JavaScript</p>
           <p>TypeScript</p>
-          <p>Pyhton</p>
+          <p>Python</p>
         </div>
         <hr />
         <div className="technology">
