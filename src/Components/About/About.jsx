@@ -75,7 +75,7 @@ const About = () => {
         <div className="technology">
           <h3>Databases</h3>
           <p>SQL Server</p>
-          <p>PosgreSQL</p>
+          <p>PostgreSQL</p>
           <p>MySQL</p>
         </div>
         <hr />
