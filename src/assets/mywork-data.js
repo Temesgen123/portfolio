@@ -1,5 +1,5 @@
 import project1_img from './aaautopbanner.png';
-import project2_img from './suhillpbanner.png';
+import project2_img from './suhillbanner.png';
 import project3_img from './nextshop-banner.png';
 const mywork_data = [
   {
