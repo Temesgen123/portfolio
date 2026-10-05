@@ -1,6 +1,7 @@
 import project1_img from './aaautopbanner.png';
 import project2_img from './suhillbanner.png';
 import project3_img from './nextshop-banner.png';
+import project4_img from './trackflowbanner.png';
 const mywork_data = [
   {
     w_no: '1',
@@ -25,6 +26,14 @@ const mywork_data = [
     w_dsc:
       'Built a production-ready full-stack e-commerce application with a complete customer storefront, admin dashboard, and driver delivery system. Features Stripe payments with automatic tax calculation, customer accounts with Google OAuth, loyalty points, gift cards, discount codes, and abandonned cart recovery. Includes a powerful admin panel for managing products, orders, customers, and analytics.',
     w_url: 'https://ecommerce-steel-five-73.vercel.app/',
+  },
+  {
+    w_no: '4',
+    w_name: 'TRACKFLOW — AGILE PROJECT MANAGMENT APP',
+    w_image: project4_img,
+    w_dsc:
+      'Designed and developed a full-stack agile project management web application from scratch, following the complete Software Development Life Cycle (SDLC) — from requirements gathering and system design through to deployment and testing.The application enables teams to create and manage software projects using the Scrum methodology, with support for phases, milestones, tasks, and sprint cycles. Built a drag-and-drop Kanban board for sprint management, a global backlog with sprint assignment, real-time progress tracking with charts and burndown graphs, and a reminders/todo system on the dashboard.',
+    w_url: 'https://trackflow-lake-two.vercel.app',
   },
 ];
 
